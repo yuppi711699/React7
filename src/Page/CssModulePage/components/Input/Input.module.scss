@@ -1,0 +1,17 @@
+.input{
+    background: #c92121;
+    size: 20px;
+    &:global(.input-pressed) {
+        size: 20px;
+        background: aqua;
+    } 
+    &:global(.input-over){
+        size: 40px;
+        background: brown;
+    } :global{
+        
+    }
+}
+// .wide{
+//     color:red;
+// }
